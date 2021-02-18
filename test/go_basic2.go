@@ -11,6 +11,7 @@ func main() {
 	fmt.Println("1", "q", "e", 1, 2, 3, "u")
 	fmt.Printf("ab %d %d %d cd", 1, 2, 3)
 
+	fmt.Println("")
 	fmt.Println("《《===========Go语言基础数据类型============》》")
 
 	var numdouble = 3.5
