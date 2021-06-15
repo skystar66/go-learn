@@ -39,11 +39,11 @@ func struct1() {
 	book1.title = "book"
 	fmt.Println("变量修改前 title:", book1)
 	//结构体指针
-	struct1_1(&book1)
+	struct1_1_update(&book1)
 	fmt.Println("变量修改后 title:", book1)
 }
 
-func struct1_1(book_ref *Book) {
+func struct1_1_update(book_ref *Book) {
 	book_ref.title = "update_book"
 }
 
